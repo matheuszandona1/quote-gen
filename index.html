@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quote Gen</title>
+</head>
+
+<body>
+  <script>
+    function obterFrase() {
+      var r_text = new Array();
+      r_text[0] = "A vida trar&aacute; coisas boas se tiveres paci&ecirc;ncia.";
+      r_text[1] = "N&atilde;o compense na ira o que lhe falta de raz&atilde;o.";
+      r_text[2] = "Defeitos e virtudes s&atilde;o apenas dois lados da mesma moeda.";
+      r_text[3] = "A maior de todas as torres come&ccedil;a no solo.";
+      r_text[4] = "N&atilde;o h&aacute; que ser forte. H&aacute; que ser flex&iacute;vel.";
+      r_text[5] = "Há tr&ecirc;s coisas que jamais voltam; a flecha lan&ccedil;ada, a palavra dita e a oportunidade perdida.";
+      r_text[6] = "A juventude n&atilde;o é uma &eacute;poca da vida, &eacute; um estado de esp&iacute;rito.";
+      var i = Math.floor(7 * Math.random())
+      document.getElementById("sorte").innerHTML = "<p>" + r_text[i] + "</p>";
+    }
+  </script>
+  </head>
+
+  <body>
+
+    <div id="sorte">
+
+    </div>
+    <form>
+      <input type="button" value="Frase" onClick="obterFrase();"></input>
+    </form>
+  </body>
+
+</html>
