@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="index.18770cac.css">
+  <link rel="stylesheet" href="./style.scss">
 
   <title>Quote Gen</title>
 </head>
@@ -224,15 +224,15 @@
   </section>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script>$(".questions__btn").click(function(e) {
-    $(this).toggleClass("ativo");
-    $(this).parent().parent().find(".questions__answer").slideToggle();
-});
-$(".other-questions__btn").click(function(e) {
-    $(this).parent().find(".other-questions__container").slideToggle();
-});
-
-</script>
+  <script>
+    $(".questions__btn").click(function (e) {
+      $(this).toggleClass("ativo");
+      $(this).parent().parent().find(".questions__answer").slideToggle();
+    });
+    $(".other-questions__btn").click(function (e) {
+      $(this).parent().find(".other-questions__container").slideToggle();
+    })
+  </script>
 
 </body>
 

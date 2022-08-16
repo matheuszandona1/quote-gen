@@ -1,0 +1,39 @@
+* {
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff0e2;
+}
+
+.questions {
+  max-width: 340px;
+  width: 100%;
+  background-color: #ffd7a9;
+  margin: 50px auto 0;
+}
+
+.questions__btn {
+  color: #f49e48;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  display: block;
+  position: relative;
+}
+
+.questions__btn:after {
+  content: "i";
+  position: absolute;
+  right: 20px;
+}
+
+.questions__btn.ativo:after {
+  transform: rotate(90deg);
+}
+
+/*# sourceMappingURL=index.b2d9cf43.css.map */
