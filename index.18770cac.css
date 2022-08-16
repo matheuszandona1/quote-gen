@@ -14,11 +14,28 @@ body {
 }
 
 .questions {
+  padding-top: 100px;
+}
+
+.questions__container {
   max-width: 500px;
   width: 100%;
   background-color: #ffd7a9;
   border-radius: 10px;
   margin: 50px auto 100px;
+  display: none;
+}
+
+.questions__btn-1 {
+  text-align: center;
+  color: #fff;
+  max-width: 310px;
+  width: 100%;
+  background-color: #f49e48;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: block;
 }
 
 .questions__btn {
@@ -69,6 +86,8 @@ body {
 .other-questions__btn {
   text-align: center;
   color: #fff;
+  max-width: 350px;
+  width: 100%;
   background-color: #d94267;
   border-radius: 10px;
   margin: 0 auto;

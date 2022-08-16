@@ -19,13 +19,31 @@ body {
 }
 
 .questions {
-  background-color: $bege;
-  max-width: 500px;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 50px;
-  border-radius: 10px;
-  margin-bottom: 100px;
+  padding-top: 100px;
+
+  &__container {
+    background-color: $bege;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    display: none;
+  }
+
+  &__btn-1 {
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: $laranja;
+    color: #fff;
+    max-width: 310px;
+    width: 100%;
+
+  }
 
 
   &__btn {
@@ -87,6 +105,8 @@ body {
     border-radius: 10px;
     background-color: $rosa;
     color: #fff;
+    max-width: 350px;
+    width: 100%;
   }
 
   &__container {
